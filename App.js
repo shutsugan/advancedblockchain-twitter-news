@@ -3,6 +3,8 @@ import {StyleSheet, View, Text, Dimensions} from 'react-native';
 import {Constants} from 'expo';
 import NavigationBar from 'react-native-navbar';
 
+import TwittesList from './app/components/TwittesList';
+
 export default class App extends React.Component {
   render() {
     return (
@@ -11,7 +13,7 @@ export default class App extends React.Component {
           style={styles.navigationbar}
           title={titleConfig}
         />
-        <Text>Hi!!</Text>
+        <TwittesList />
       </View>
     );
   }
