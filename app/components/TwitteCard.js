@@ -28,9 +28,10 @@ export default class TwitteCard extends Component {
                         <Text style={styles.twittecard__title}>{title}</Text>
                         <Text style={styles.twittecard__body}>{body}</Text>
 
-                        <View style={styles.twittecard__link}>
-                            <Text onPress={() => { Linking.openURL(link) }}>{link}</Text>
-                        </View>
+                        <Text 
+                            style={styles.twittecard__link} 
+                            onPress={() => { Linking.openURL(link) }}>{link}
+                        </Text>
 
                         <SocialIcon
                             title={`Follow ${hash}`}
@@ -67,17 +68,24 @@ const styles = StyleSheet.create({
     },
 
     twittecard__date: {
-        color: '#0f8ec7',
-        fontSize: 12,
+        color: '#9197A3',
+        fontSize: 11,
+        fontWeight: 'bold',
     },
 
     twittecard__body: {
         color: '#9197A3',
-        fontSize: 12,
+        fontSize: 14,
     },
 
     twittecard__link: {
-        marginTop: 16,
+        alignSelf: 'flex-start',
+        fontSize: 12,
+        marginTop: 8,
+        marginBottom: 16,
+        color: '#54acef',
+        borderBottomColor: '#54acef',
+        borderBottomWidth: 1,
     }
 });
 
