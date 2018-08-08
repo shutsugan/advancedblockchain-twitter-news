@@ -24,7 +24,7 @@ export default class TwittesList extends Component {
     }
 
     /**
-     * Rendered a data entry from the data source as a row.
+     * Rendere a data entry from the data source as a row.
      * @param {Object} twitte - twitte to be displayed in each row.
      * @param {number} section_id
      * @param {number} row_id

@@ -30,14 +30,14 @@ export default class TwitteCard extends Component {
 
                         <Text 
                             style={styles.twittecard__link} 
-                            onPress={() => { Linking.openURL(link) }}>{link}
+                            onPress={_ => Linking.openURL(link)}>{link}
                         </Text>
 
                         <SocialIcon
                             title={`Follow ${hash}`}
                             button
                             type='twitter'
-                            onPress={() => { Linking.openURL(twitter) }}
+                            onPress={_ => Linking.openURL(twitter)}
                         />
                     </Card>
                 </View>
