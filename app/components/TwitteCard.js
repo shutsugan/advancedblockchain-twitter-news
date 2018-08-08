@@ -5,8 +5,7 @@ import {
     View, 
     TouchableHighlight, 
     StyleSheet,
-    Dimensions,
-    Button, 
+    Dimensions, 
     Linking 
 } from 'react-native';
 import {Card, SocialIcon} from 'react-native-elements';
