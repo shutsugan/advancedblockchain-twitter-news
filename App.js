@@ -1,21 +1,42 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {StyleSheet, View, Text, Dimensions} from 'react-native';
+import {Constants} from 'expo';
+import NavigationBar from 'react-native-navbar';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <NavigationBar
+          style={styles.navigationbar}
+          title={titleConfig}
+        />
+        <Text>Hi!!</Text>
       </View>
     );
   }
 }
+
+const width = Dimensions.get('window').width;
+const titleConfig = {
+  title: 'Twitter news',
+  tintColor: '#FFF'
+};
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
+
+  navigationbar: {
+    width: width,
+    marginTop: Constants.statusBarHeight,
+    alignSelf: 'stretch',
+    backgroundColor: '#54acef',
+    justifyContent: 'center',
+  }
 });
