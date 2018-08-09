@@ -53,9 +53,5 @@ After initializing the project, download the expo XDE from [here](https://docs.e
 then open the project and follow the instructions to run on your device using Expo Client.
 
 ### App ScreenShots
-
-Desktop screenshot:
 	
-![advancedblockchain screenshot](../master/screenshot1.png)
-	
-![advancedblockchain screenshot](../master/screenshot2.png)
+![advancedblockchain screenshots](../master/screenshots.png)
