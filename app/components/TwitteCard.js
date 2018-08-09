@@ -3,7 +3,6 @@ import {
     AppRegistry, 
     Text, 
     View, 
-    TouchableHighlight, 
     StyleSheet,
     Dimensions, 
     Linking 
@@ -16,7 +15,7 @@ export default class TwitteCard extends Component {
         const {hash, twitter, date, title, body, link} = this.props.twitte;
         
         return(
-            <TouchableHighlight style={styles.twittecard__container}>
+            <View style={styles.twittecard__container}>
                 <View style={styles.twittecard}>
                     <Card
                         overlayStyle={{ opacity: 0 }}
@@ -40,7 +39,7 @@ export default class TwitteCard extends Component {
                         />
                     </Card>
                 </View>
-            </TouchableHighlight>
+            </View>
         );
     }
 }

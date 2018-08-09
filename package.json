@@ -1,7 +1,13 @@
 {
-  "name": "empty-project-template",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "react-native-project",
+  "version": "1.0.0",
   "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.14.0",
+    "jest-expo": "~29.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,13 +16,13 @@
     "test": "jest"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "jest-expo"
   },
   "dependencies": {
     "expo": "^29.0.0",
     "jest": "^23.4.2",
     "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
+    "react-native": "~0.55.2",
     "react-native-elements": "^0.19.1",
     "react-native-navbar": "^2.1.0"
   }
