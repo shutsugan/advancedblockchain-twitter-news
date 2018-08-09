@@ -49,7 +49,7 @@ $ npm test
 
 ### Run the app using Expo Tool: XDE
 
-After initializing the project, download the expo XDE from [here](https://docs.expo.io/versions/latest/introduction/installation),
+After downloading and installing the dependencies of the project, download the expo XDE from [here](https://docs.expo.io/versions/latest/introduction/installation),
 then open the project and follow the instructions to run on your device using Expo Client.
 
 ### App ScreenShots
