@@ -51,3 +51,11 @@ $ npm test
 
 After initializing the project, download the expo XDE from [here](https://docs.expo.io/versions/latest/introduction/installation),
 then open the project and follow the instructions to run on your device using Expo Client.
+
+### App ScreenShots
+
+Desktop screenshot:
+	
+![advancedblockchain screenshot](../master/screenshot1.png)
+	
+![advancedblockchain screenshot](../master/screenshot2.png)
