@@ -29,13 +29,13 @@ on your device and use it to scan the QR code printed by ```npm start```
 ```sh
 $ npm start
 ```
-### Run the app in Windows
+### Run the app in Windows (emulator device)
 
 ```sh
 $ npm run android
 ```
 
-### Run the app in iOS
+### Run the app in iOS (emulator device)
 
 ```sh
 $ npm run ios
