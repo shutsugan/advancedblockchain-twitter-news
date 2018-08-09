@@ -41,6 +41,12 @@ $ npm run android
 $ npm run ios
 ```
 
+### Run the app tests
+
+```sh
+$ npm test
+```
+
 ### Run the app using Expo Tool: XDE
 
 After initializing the project, download the expo XDE from [here](https://docs.expo.io/versions/latest/introduction/installation),
