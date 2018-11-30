@@ -58,4 +58,4 @@ then open the project and follow the instructions to run on your device using Ex
 
 ### Screen recording
 
-[![asciicast](../master/screen-2018-11-30_20.09.32.mp4)](screen-2018-11-30_20.09.32.mp4)
+![screen recording](../master/ezgif.com-video-to-gif.gif)
