@@ -55,7 +55,3 @@ then open the project and follow the instructions to run on your device using Ex
 ### App ScreenShots
 	
 ![advancedblockchain screenshots](../master/screenshots.png)
-
-### Screen recording
-
-![screen recording](../master/ezgif.com-video-to-gif.gif)
